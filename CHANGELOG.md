@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+<<<<<<< HEAD
 ## [0.18.0]
 
 ### Added
@@ -21,6 +22,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Mark `var.defaults` as deprecated. This variable was introduced and used before Terraform Module `for_each` was available.
 
+||||||| parent of 3be6354 (feat!: add support for configuring default squash and merge commit title and messages)
+=======
+### Changed
+
+- BREAKING: update to provider `>= 4.31` for supporting default squash and merge commit titles and messages
+
+### Added
+- Add support for `squash_merge_commit_title`
+- Add support for `squash_merge_commit_message`
+- Add support for `merge_commit_title`
+- Add support for `merge_commit_message`
+
+
+>>>>>>> 3be6354 (feat!: add support for configuring default squash and merge commit title and messages)
 ## [0.17.0]
 
 ### Added
