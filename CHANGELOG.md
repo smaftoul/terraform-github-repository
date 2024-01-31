@@ -7,8 +7,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.18.0]
-
 ### Added
 
 - Add support for v4 branch protections.
@@ -20,6 +18,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Deprecated
 
 - Mark `var.defaults` as deprecated. This variable was introduced and used before Terraform Module `for_each` was available.
+
+## [0.18.0]
+
+### Changed
+
+- BREAKING: update to provider `>= 4.31` for supporting default squash and merge commit titles and messages
+
+### Added
+
+- Add support for `squash_merge_commit_title`
+- Add support for `squash_merge_commit_message`
+- Add support for `merge_commit_title`
+- Add support for `merge_commit_message`
+- Add support for `ignore_vulnerability_alerts_during_read`
 
 ## [0.17.0]
 
